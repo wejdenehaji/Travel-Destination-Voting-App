@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  Travel Destination Voting App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="phto/barcelona.avif" alt="Header Image">
+    <div class="header-text">
+        <h1>Dream Travels</h1>
+        <p>Pick your next adventure</p>
+    </div>
+</header>
+
+<div class="container">
+
+<nav class="nav">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Special Offers</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+    </nav>
+
+    <section class="main-content">
+        <div class="card">
+            <img src="phto/paris.avif" alt="Paris">
+            <h2>Paris</h2>
+            <p>Votes: <span id="vote-paris">0</span></p>
+            <button onclick="vote('paris')">Vote</button>
+        </div>
+
+        <div class="card">
+            <img src="phto/tokyo.avif" alt="Tokyo">
+            <h2>Tokyo</h2>
+            <p>Votes: <span id="vote-tokyo">0</span></p>
+            <button onclick="vote('tokyo')">Vote</button>
+        </div>
+
+        <div class="card">
+            <img src="phto/newyork.avif" alt="New York">
+            <h2>New York</h2>
+            <p>Votes: <span id="vote-newyork">0</span></p>
+            <button onclick="vote('newyork')">Vote</button>
+        </div>
+
+        <div class="card">
+            <img src="phto/rome.avif" alt="Rome">
+            <h2>Rome</h2>
+            <p>Votes: <span id="vote-rome">0</span></p>
+            <button onclick="vote('rome')">Vote</button>
+        </div>
+
+        <div class="card">
+            <img src="phto/london.avif" alt="London">
+            <h2>London</h2>
+            <p>Votes: <span id="vote-london">0</span></p>
+            <button onclick="vote('london')">Vote</button>
+        </div>
+
+        <div class="card">
+            <img src="phto/sydney.avif" alt="Sydney">
+            <h2>Sydney</h2>
+            <p>Votes: <span id="vote-sydney">0</span></p>
+            <button onclick="vote('sydney')">Vote</button>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2025 Dream Travels. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
